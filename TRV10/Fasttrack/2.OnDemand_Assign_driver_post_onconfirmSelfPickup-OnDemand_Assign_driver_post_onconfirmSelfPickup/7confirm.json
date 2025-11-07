@@ -1,0 +1,223 @@
+{
+      "context": {
+        "domain": "ONDC:TRV10",
+        "action": "confirm",
+        "location": {
+          "country": {
+            "code": "IND"
+          },
+          "city": {
+            "code": "std:080"
+          }
+        },
+        "version": "2.1.0",
+        "bap_id": "preprod.ftdev.in",
+        "bap_uri": "https://preprod.ftdev.in",
+        "bpp_id": "workbench.ondc.tech",
+        "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
+        "transaction_id": "8e120154-b45e-49e7-99f1-0f8f383b95c7",
+        "message_id": "da7a764b-109a-40eb-b874-32f092c665b6",
+        "timestamp": "2025-11-07T08:53:59.944Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "billing": {
+            "name": "test booking"
+          },
+          "fulfillments": [
+            {
+              "customer": {
+                "contact": {
+                  "phone": "8056114016"
+                },
+                "person": {
+                  "name": "test booking"
+                }
+              },
+              "id": "F1",
+              "stops": [
+                {
+                  "location": {
+                    "gps": "12.935010,77.573460"
+                  },
+                  "type": "START"
+                },
+                {
+                  "location": {
+                    "gps": "12.935549,77.605885"
+                  },
+                  "type": "END"
+                }
+              ],
+              "vehicle": {
+                "category": "AUTO_RICKSHAW",
+                "variant": "AUTO_RICKSHAW"
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "I1"
+            }
+          ],
+          "payments": [
+            {
+              "collected_by": "BPP",
+              "id": "j2wjozsabin",
+              "status": "NOT-PAID",
+              "type": "ON-FULFILLMENT"
+            }
+          ],
+          "provider": {
+            "id": "P1"
+          },
+          "tags": [
+            {
+              "descriptor": {
+                "name": "BAP Terms of Engagement",
+                "code": "BAP_TERMS"
+              },
+              "display": false,
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                  },
+                  "value": "1"
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_WINDOW"
+                  },
+                  "value": "P30D"
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_BASIS"
+                  },
+                  "value": "DELIVERY"
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_TYPE"
+                  },
+                  "value": "NEFT"
+                },
+                {
+                  "descriptor": {
+                    "code": "MANDATORY_ARBITRATION"
+                  },
+                  "value": "true"
+                },
+                {
+                  "descriptor": {
+                    "code": "COURT_JURISDICTION"
+                  },
+                  "value": "New Delhi"
+                },
+                {
+                  "descriptor": {
+                    "code": "DELAY_INTEREST"
+                  },
+                  "value": "0"
+                },
+                {
+                  "descriptor": {
+                    "code": "STATIC_TERMS"
+                  },
+                  "value": "https://example-test-bap.com/static-terms.txt"
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_AMOUNT"
+                  },
+                  "value": "1.46"
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_BANK_CODE"
+                  },
+                  "value": "IOBA0000038"
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_BANK_ACCOUNT_NUMBER"
+                  },
+                  "value": "003802000005200"
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_VIRTUAL_PAYMENT_ADDRESS"
+                  },
+                  "value": "9988199772@okicic"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "BPP_TERMS",
+                "name": "BPP Terms of Engagement"
+              },
+              "display": false,
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                  },
+                  "value": "1"
+                },
+                {
+                  "descriptor": {
+                    "code": "DELAY_INTEREST"
+                  },
+                  "value": "0"
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_TYPE"
+                  },
+                  "value": "NEFT"
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_WINDOW"
+                  },
+                  "value": "P30D"
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_BASIS"
+                  },
+                  "value": "DELIVERY"
+                },
+                {
+                  "descriptor": {
+                    "code": "MANDATORY_ARBITRATION"
+                  },
+                  "value": "true"
+                },
+                {
+                  "descriptor": {
+                    "code": "COURT_JURISDICTION"
+                  },
+                  "value": "New Delhi"
+                },
+                {
+                  "descriptor": {
+                    "code": "STATIC_TERMS"
+                  },
+                  "value": "https://example-test-bpp.com/static-terms.txt"
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_AMOUNT"
+                  },
+                  "value": "1.46"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }

@@ -1,0 +1,32 @@
+{
+      "context": {
+        "action": "on_track",
+        "bap_id": "dev-automation.ondc.org",
+        "bap_uri": "https://preprod.ftdev.in",
+        "domain": "ONDC:TRV10",
+        "location": {
+          "city": {
+            "code": "std:011"
+          },
+          "country": {
+            "code": "IND"
+          }
+        },
+        "message_id": "3a58d601-0cda-4021-93fb-43cdef43f7ab",
+        "timestamp": "2025-11-06T12:39:44.281Z",
+        "transaction_id": "e1d8ae77-aee7-4385-9a5b-4f8e2af7edf0",
+        "ttl": "PT30S",
+        "version": "2.1.0",
+        "bpp_id": "mock.workbench.ondc",
+        "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller"
+      },
+      "message": {
+        "tracking": {
+          "status": "active",
+          "location": {
+            "gps": "28.620976, 77.046732",
+            "updated_at": "2025-11-06T12:39:44.282Z"
+          }
+        }
+      }
+    }
