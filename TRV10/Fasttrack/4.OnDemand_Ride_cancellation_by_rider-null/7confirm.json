@@ -7,7 +7,7 @@
             "code": "IND"
           },
           "city": {
-            "code": "std:080"
+            "code": "std:044"
           }
         },
         "version": "2.1.0",
@@ -15,9 +15,9 @@
         "bap_uri": "https://preprod.ftdev.in",
         "bpp_id": "workbench.ondc.tech",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "c2d4fb9b-ed55-43f6-b610-e30cbeb09c98",
-        "message_id": "19c6ecca-3021-4602-87a6-504495b1b553",
-        "timestamp": "2025-11-07T09:25:11.876Z",
+        "transaction_id": "2081c4f6-650c-48d6-a322-80f81e52989b",
+        "message_id": "0e6081b6-cf7f-456b-90d7-39744353efe2",
+        "timestamp": "2025-11-21T07:14:23.661Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -39,13 +39,13 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "END"
                 }
@@ -64,7 +64,7 @@
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "4rp9mw88mas",
+              "id": "1o4bhve97h3",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }

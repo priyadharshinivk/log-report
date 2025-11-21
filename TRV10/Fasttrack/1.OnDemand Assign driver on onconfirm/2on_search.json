@@ -1,5 +1,5 @@
-      {
-        "context": {
+{
+      "context": {
         "action": "on_search",
         "bap_id": "dev-automation.ondc.org",
         "bap_uri": "https://preprod.ftdev.in",
@@ -12,9 +12,9 @@
             "code": "IND"
           }
         },
-        "message_id": "1e71c888-0ecc-48a4-a811-b30138653a8a",
-        "timestamp": "2025-11-06T12:38:50.231Z",
-        "transaction_id": "e1d8ae77-aee7-4385-9a5b-4f8e2af7edf0",
+        "message_id": "b71e143c-3c37-4605-a702-a0e8b216e664",
+        "timestamp": "2025-11-21T06:41:21.677Z",
+        "transaction_id": "67c6d3f8-e95a-4734-82da-18890a1a27ad",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -33,7 +33,7 @@
                   "stops": [
                     {
                       "location": {
-                        "gps": "12.935549,77.605885"
+                        "gps": "13.064511,80.266065"
                       },
                       "type": "START",
                       "instructions": {
@@ -43,7 +43,7 @@
                     },
                     {
                       "location": {
-                        "gps": "12.935010,77.573460"
+                        "gps": "13.014712,80.223993"
                       },
                       "type": "END",
                       "instructions": {
@@ -63,7 +63,7 @@
                   "stops": [
                     {
                       "location": {
-                        "gps": "12.935549,77.605885"
+                        "gps": "13.064511,80.266065"
                       },
                       "type": "START",
                       "instructions": {
@@ -73,7 +73,7 @@
                     },
                     {
                       "location": {
-                        "gps": "12.935010,77.573460"
+                        "gps": "13.014712,80.223993"
                       },
                       "type": "END",
                       "instructions": {
@@ -178,246 +178,19 @@
               ],
               "locations": [
                 {
-                  "gps": "12.933410,77.608454",
+                  "gps": "13.064880,80.266246",
                   "id": "L1"
                 },
                 {
-                  "gps": "12.934056,77.606427",
+                  "gps": "13.069006,80.270612",
                   "id": "L2"
                 },
                 {
-                  "gps": "12.935632,77.607411",
+                  "gps": "13.060644,80.267487",
                   "id": "L3"
                 },
                 {
-                  "gps": "12.931299,77.601796",
-                  "id": "L4"
-                }
-              ],
-              "payments": [
-                {
-                  "collected_by": "BPP"
-                }
-              ],
-              "categories": [
-                {
-                  "id": "198392",
-                  "descriptor": {
-                    "code": "ON_DEMAND_TRIP",
-                    "name": "on demand"
-                  }
-                }
-              ]
-            }
-          ],
-          "tags": [
-            {
-              "descriptor": {
-                "code": "BPP_TERMS",
-                "name": "BPP Terms of Engagement"
-              },
-              "list": [
-                {
-                  "descriptor": {
-                    "code": "BUYER_FINDER_FEES_PERCENTAGE"
-                  },
-                  "value": "1"
-                },
-                {
-                  "descriptor": {
-                    "code": "SETTLEMENT_WINDOW"
-                  },      "context": {
-        "action": "on_search",
-        "bap_id": "dev-automation.ondc.org",
-        "bap_uri": "https://preprod.ftdev.in",
-        "domain": "ONDC:TRV10",
-        "location": {
-          "city": {
-            "code": "std:011"
-          },
-          "country": {
-            "code": "IND"
-          }
-        },
-        "message_id": "1e71c888-0ecc-48a4-a811-b30138653a8a",
-        "timestamp": "2025-11-06T12:38:50.231Z",
-        "transaction_id": "e1d8ae77-aee7-4385-9a5b-4f8e2af7edf0",
-        "ttl": "PT30S",
-        "version": "2.1.0",
-        "bpp_id": "mock.workbench.ondc",
-        "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller"
-      },
-      "message": {
-        "catalog": {
-          "descriptor": {
-            "name": "Mobility Servies BPP"
-          },
-          "providers": [
-            {
-              "fulfillments": [
-                {
-                  "id": "F1",
-                  "stops": [
-                    {
-                      "location": {
-                        "gps": "12.935549,77.605885"
-                      },
-                      "type": "START",
-                      "instructions": {
-                        "short_desc": "short description of the location",
-                        "long_desc": "long description of the location"
-                      }
-                    },
-                    {
-                      "location": {
-                        "gps": "12.935010,77.573460"
-                      },
-                      "type": "END",
-                      "instructions": {
-                        "short_desc": "short description of the location",
-                        "long_desc": "long description of the location"
-                      }
-                    }
-                  ],
-                  "type": "DELIVERY",
-                  "vehicle": {
-                    "category": "AUTO_RICKSHAW",
-                    "variant": "AUTO_RICKSHAW"
-                  }
-                },
-                {
-                  "id": "F2",
-                  "stops": [
-                    {
-                      "location": {
-                        "gps": "12.935549,77.605885"
-                      },
-                      "type": "START",
-                      "instructions": {
-                        "short_desc": "short description of the location",
-                        "long_desc": "long description of the location"
-                      }
-                    },
-                    {
-                      "location": {
-                        "gps": "12.935010,77.573460"
-                      },
-                      "type": "END",
-                      "instructions": {
-                        "short_desc": "short description of the location",
-                        "long_desc": "long description of the location"
-                      }
-                    }
-                  ],
-                  "type": "DELIVERY",
-                  "vehicle": {
-                    "category": "CAB",
-                    "variant": "SEDAN"
-                  }
-                }
-              ],
-              "id": "P1",
-              "items": [
-                {
-                  "descriptor": {
-                    "code": "RIDE",
-                    "name": "Auto Ride"
-                  },
-                  "category_ids": [
-                    "198392"
-                  ],
-                  "fulfillment_ids": [
-                    "F1"
-                  ],
-                  "id": "I1",
-                  "location_ids": [
-                    "L1",
-                    "L3"
-                  ],
-                  "price": {
-                    "currency": "INR",
-                    "maximum_value": "176",
-                    "minimum_value": "136",
-                    "value": "146"
-                  },
-                  "tags": [
-                    {
-                      "descriptor": {
-                        "code": "FEATURE_LIST",
-                        "name": "Feature list"
-                      },
-                      "list": [
-                        {
-                          "value": "NON_AC"
-                        },
-                        {
-                          "value": "LOW_PRICE"
-                        },
-                        {
-                          "value": "DOORSTEP_PICK_UP"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "descriptor": {
-                    "code": "RIDE",
-                    "name": "CAB Economy Ride"
-                  },
-                  "category_ids": [
-                    "198392"
-                  ],
-                  "fulfillment_ids": [
-                    "F2"
-                  ],
-                  "id": "I2",
-                  "location_ids": [
-                    "L2",
-                    "L4"
-                  ],
-                  "price": {
-                    "currency": "INR",
-                    "maximum_value": "236",
-                    "minimum_value": "206",
-                    "value": "206"
-                  },
-                  "tags": [
-                    {
-                      "descriptor": {
-                        "code": "FEATURE_LIST",
-                        "name": "Feature list"
-                      },
-                      "list": [
-                        {
-                          "value": "AC"
-                        },
-                        {
-                          "value": "LOW_PRICE"
-                        },
-                        {
-                          "value": "FREE_WIFI"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "locations": [
-                {
-                  "gps": "12.933410,77.608454",
-                  "id": "L1"
-                },
-                {
-                  "gps": "12.934056,77.606427",
-                  "id": "L2"
-                },
-                {
-                  "gps": "12.935632,77.607411",
-                  "id": "L3"
-                },
-                {
-                  "gps": "12.931299,77.601796",
+                  "gps": "13.063248,80.264066",
                   "id": "L4"
                 }
               ],
@@ -454,50 +227,6 @@
                   "descriptor": {
                     "code": "SETTLEMENT_WINDOW"
                   },
-                  "value": "PT60M"
-                },
-                {
-                  "descriptor": {
-                    "code": "SETTLEMENT_BASIS"
-                  },
-                  "value": "DELIVERY"
-                },
-                {
-                  "descriptor": {
-                    "code": "SETTLEMENT_TYPE"
-                  },
-                  "value": "UPI"
-                },
-                {
-                  "descriptor": {
-                    "code": "MANDATORY_ARBITRATION"
-                  },
-                  "value": "true"
-                },
-                {
-                  "descriptor": {
-                    "code": "COURT_JURISDICTION"
-                  },
-                  "value": "New Delhi"
-                },
-                {
-                  "descriptor": {
-                    "code": "DELAY_INTEREST"
-                  },
-                  "value": "5"
-                },
-                {
-                  "descriptor": {
-                    "code": "STATIC_TERMS"
-                  },
-                  "value": "https://example-test-bpp.com/static-terms.txt"
-                }
-              ]
-            }
-          ]
-        }
-      }
-
                   "value": "PT60M"
                 },
                 {

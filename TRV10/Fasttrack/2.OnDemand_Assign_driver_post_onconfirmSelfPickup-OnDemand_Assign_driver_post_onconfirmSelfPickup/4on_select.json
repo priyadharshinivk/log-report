@@ -1,4 +1,4 @@
-  {
+{
       "context": {
         "action": "on_select",
         "bap_id": "dev-automation.ondc.org",
@@ -12,9 +12,9 @@
             "code": "IND"
           }
         },
-        "message_id": "4cc7b9b9-e7cf-40fb-96ac-93371abd7be1",
-        "timestamp": "2025-11-07T08:53:42.172Z",
-        "transaction_id": "8e120154-b45e-49e7-99f1-0f8f383b95c7",
+        "message_id": "bc12a4cd-aec2-442a-ba96-1cf4ed8007dd",
+        "timestamp": "2025-11-21T06:47:59.850Z",
+        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -28,7 +28,7 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "START",
                   "instructions": {
@@ -38,7 +38,7 @@
                 },
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "END",
                   "instructions": {

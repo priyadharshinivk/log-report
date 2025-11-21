@@ -1,4 +1,4 @@
-  {
+{
       "context": {
         "domain": "ONDC:TRV10",
         "action": "search",
@@ -7,71 +7,73 @@
             "code": "IND"
           },
           "city": {
-            "code": "std:080"
+            "code": "std:044"
           }
         },
         "version": "2.1.0",
         "bap_id": "preprod.ftdev.in",
         "bap_uri": "https://preprod.ftdev.in",
-        "transaction_id": "c1be82ff-a448-4ba1-beca-6ce1b4b229b4",
-        "message_id": "4cd95e08-1170-4ec0-8c66-5054b7a07e27",
-        "timestamp": "2025-11-07T08:56:27.874Z",
+        "transaction_id": "6f9c7f7c-686b-4605-aee1-182451c7988b",
+        "message_id": "cbdebb97-90b6-4817-a054-c29af4001a49",
+        "timestamp": "2025-11-21T06:45:57.069Z",
         "ttl": "PT30S"
       },
       "message": {
         "intent": {
-          "category": {
-            "descriptor": {
-              "code": "ON_DEMAND_TRIP"
-            }
-          },
-          "tags": [
-            {
-              "descriptor": {
-                "name": "BAP Terms of Engagement",
-                "code": "BAP_TERMS"
-              },
-              "display": false,
-              "list": [
-                {
-                  "descriptor": {
-                    "code": "BUYER_FINDER_FEES_PERCENTAGE"
-                  },
-                  "value": "1"
-                },
-                {
-                  "descriptor": {
-                    "code": "DELAY_INTEREST"
-                  },
-                  "value": "0"
-                },
-                {
-                  "descriptor": {
-                    "code": "STATIC_TERMS"
-                  },
-                  "value": "https://example-test-bap.com/static-terms.txt"
-                }
-              ]
-            }
-          ],
           "fulfillment": {
             "stops": [
               {
                 "location": {
-                  "gps": "12.935549,77.605885"
+                  "gps": "13.064511,80.266065"
                 },
                 "type": "START"
               },
               {
                 "location": {
-                  "gps": "12.935010,77.573460"
+                  "gps": "13.014712,80.223993"
                 },
                 "type": "END"
               }
             ]
           },
           "payment": {
-            "collected_by": "BPP"
+            "collected_by": "BPP",
+            "tags": [
+              {
+                "descriptor": {
+                  "code": "BUYER_FINDER_FEES"
+                },
+                "display": false,
+                "list": [
+                  {
+                    "descriptor": {
+                      "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                    },
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_TERMS"
+                },
+                "display": false,
+                "list": [
+                  {
+                    "descriptor": {
+                      "code": "DELAY_INTEREST"
+                    },
+                    "value": "5"
+                  },
+                  {
+                    "descriptor": {
+                      "code": "STATIC_TERMS"
+                    },
+                    "value": "https://example-test-bap.com/static-terms.txt"
+                  }
+                ]
+              }
+            ]
           }
         }
       }

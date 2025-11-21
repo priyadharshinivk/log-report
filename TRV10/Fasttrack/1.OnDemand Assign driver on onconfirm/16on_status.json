@@ -12,9 +12,9 @@
             "code": "IND"
           }
         },
-        "message_id": "879b52af-e288-4327-aa27-ed7ac9598b5f",
-        "timestamp": "2025-11-06T12:40:00.176Z",
-        "transaction_id": "e1d8ae77-aee7-4385-9a5b-4f8e2af7edf0",
+        "message_id": "431f3858-ef78-4483-87be-74aa6b7ad8c8",
+        "timestamp": "2025-11-21T06:44:32.367Z",
+        "transaction_id": "67c6d3f8-e95a-4734-82da-18890a1a27ad",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -226,7 +226,7 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "START",
                   "instructions": {
@@ -236,13 +236,13 @@
                   "authorization": {
                     "token": "234234",
                     "type": "OTP",
-                    "valid_to": "2025-11-06T12:54:22.381Z",
+                    "valid_to": "2025-11-21T06:58:39.791Z",
                     "status": "CLAIMED"
                   }
                 },
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "END",
                   "instructions": {
@@ -307,7 +307,7 @@
               }
             }
           ],
-          "id": "v6sbfx3b8jl",
+          "id": "k84pno11l7",
           "items": [
             {
               "descriptor": {
@@ -412,19 +412,19 @@
                 }
               ],
               "payment_ids": [
-                "s57bunsu6n"
+                "259wq6eeckx"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "s57bunsu6n",
+              "id": "259wq6eeckx",
               "status": "PAID",
               "type": "ON-FULFILLMENT",
               "params": {
                 "amount": "146",
-                "transaction_id": "dajz7fmdwbb"
+                "transaction_id": "8jnpahy91q"
               }
             }
           ],
@@ -455,8 +455,8 @@
             "ttl": "PT200S"
           },
           "status": "COMPLETE",
-          "created_at": "2025-11-06T12:39:22.381Z",
-          "updated_at": "2025-11-06T12:40:00.178Z"
+          "created_at": "2025-11-21T06:43:39.791Z",
+          "updated_at": "2025-11-21T06:44:32.368Z"
         }
       }
     }

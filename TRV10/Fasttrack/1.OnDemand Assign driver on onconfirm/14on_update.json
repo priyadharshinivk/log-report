@@ -1,4 +1,4 @@
- {
+{
       "context": {
         "action": "on_update",
         "bap_id": "dev-automation.ondc.org",
@@ -12,9 +12,9 @@
             "code": "IND"
           }
         },
-        "message_id": "79b0af07-8f2c-41e3-8734-269accf704e8",
-        "timestamp": "2025-11-06T12:39:51.855Z",
-        "transaction_id": "e1d8ae77-aee7-4385-9a5b-4f8e2af7edf0",
+        "message_id": "2877ec6e-7f6a-440a-833d-f04ff36137c2",
+        "timestamp": "2025-11-21T06:44:25.590Z",
+        "transaction_id": "67c6d3f8-e95a-4734-82da-18890a1a27ad",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -226,7 +226,7 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "START",
                   "instructions": {
@@ -236,13 +236,13 @@
                   "authorization": {
                     "token": "234234",
                     "type": "OTP",
-                    "valid_to": "2025-11-06T12:54:22.381Z",
+                    "valid_to": "2025-11-21T06:58:39.791Z",
                     "status": "CLAIMED"
                   }
                 },
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "END",
                   "instructions": {
@@ -307,7 +307,7 @@
               }
             }
           ],
-          "id": "v6sbfx3b8jl",
+          "id": "k84pno11l7",
           "items": [
             {
               "descriptor": {
@@ -412,14 +412,14 @@
                 }
               ],
               "payment_ids": [
-                "s57bunsu6n"
+                "259wq6eeckx"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "s57bunsu6n",
+              "id": "259wq6eeckx",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }
@@ -451,8 +451,8 @@
             "ttl": "PT200S"
           },
           "status": "ACTIVE",
-          "created_at": "2025-11-06T12:39:22.381Z",
-          "updated_at": "2025-11-06T12:39:51.857Z"
+          "created_at": "2025-11-21T06:43:39.791Z",
+          "updated_at": "2025-11-21T06:44:25.592Z"
         }
       }
     }

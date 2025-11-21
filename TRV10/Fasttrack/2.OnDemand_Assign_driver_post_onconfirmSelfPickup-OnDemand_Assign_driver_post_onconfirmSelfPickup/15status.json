@@ -1,4 +1,4 @@
-    {
+{
       "context": {
         "domain": "ONDC:TRV10",
         "action": "status",
@@ -7,7 +7,7 @@
             "code": "IND"
           },
           "city": {
-            "code": "std:080"
+            "code": "std:044"
           }
         },
         "version": "2.1.0",
@@ -15,12 +15,12 @@
         "bap_uri": "https://preprod.ftdev.in",
         "bpp_id": "workbench.ondc.tech",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "e1d8ae77-aee7-4385-9a5b-4f8e2af7edf0",
-        "message_id": "879b52af-e288-4327-aa27-ed7ac9598b5f",
-        "timestamp": "2025-11-06T12:40:00.045Z",
+        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "13d5171d-39bf-499f-924e-396a6d9f3b3c",
+        "timestamp": "2025-11-21T06:49:16.347Z",
         "ttl": "PT30S"
       },
       "message": {
-        "order_id": "v6sbfx3b8jl"
+        "order_id": "ikhtsawaf2"
       }
     }

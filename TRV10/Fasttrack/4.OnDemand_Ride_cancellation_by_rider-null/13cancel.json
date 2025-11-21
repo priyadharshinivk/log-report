@@ -7,7 +7,7 @@
             "code": "IND"
           },
           "city": {
-            "code": "std:080"
+            "code": "std:044"
           }
         },
         "version": "2.1.0",
@@ -15,17 +15,17 @@
         "bap_uri": "https://preprod.ftdev.in",
         "bpp_id": "workbench.ondc.tech",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "c2d4fb9b-ed55-43f6-b610-e30cbeb09c98",
-        "message_id": "49a5c958-00fa-4e54-b993-94594f7984fa",
-        "timestamp": "2025-11-07T09:25:59.800Z",
+        "transaction_id": "2081c4f6-650c-48d6-a322-80f81e52989b",
+        "message_id": "bf5ade93-10dd-4ddb-8285-fe6bc801c050",
+        "timestamp": "2025-11-21T07:15:18.561Z",
         "ttl": "PT30S"
       },
       "message": {
-        "cancellation_reason_id": "000",
+        "cancellation_reason_id": "001",
         "descriptor": {
           "code": "CONFIRM_CANCEL",
           "name": "Ride Cancellation"
         },
-        "order_id": "ks8p2v1uc9"
+        "order_id": "drfgcr622y"
       }
     }

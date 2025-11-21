@@ -12,9 +12,9 @@
             "code": "IND"
           }
         },
-        "message_id": "68e81f23-d6a9-4a96-912f-7e7478b3551c",
-        "timestamp": "2025-11-06T12:39:12.421Z",
-        "transaction_id": "e1d8ae77-aee7-4385-9a5b-4f8e2af7edf0",
+        "message_id": "eb1afaf7-517d-4b98-ac5d-a733744dbba6",
+        "timestamp": "2025-11-21T06:43:10.355Z",
+        "transaction_id": "67c6d3f8-e95a-4734-82da-18890a1a27ad",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -80,7 +80,7 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "START",
                   "instructions": {
@@ -90,7 +90,7 @@
                 },
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "END",
                   "instructions": {
@@ -243,14 +243,14 @@
                 }
               ],
               "payment_ids": [
-                "s57bunsu6n"
+                "259wq6eeckx"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "s57bunsu6n",
+              "id": "259wq6eeckx",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }

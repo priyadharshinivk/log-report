@@ -7,7 +7,7 @@
             "code": "IND"
           },
           "city": {
-            "code": "std:080"
+            "code": "std:044"
           }
         },
         "version": "2.1.0",
@@ -15,9 +15,9 @@
         "bap_uri": "https://preprod.ftdev.in",
         "bpp_id": "workbench.ondc.tech",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "c1be82ff-a448-4ba1-beca-6ce1b4b229b4",
-        "message_id": "c4d68818-9d62-498b-9709-6e3762296963",
-        "timestamp": "2025-11-07T08:56:49.793Z",
+        "transaction_id": "6f9c7f7c-686b-4605-aee1-182451c7988b",
+        "message_id": "c7ee33be-654b-48bb-9714-46f5133a62ae",
+        "timestamp": "2025-11-21T06:46:36.588Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -39,13 +39,13 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "END"
                 }

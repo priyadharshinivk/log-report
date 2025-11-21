@@ -9,71 +9,73 @@
             "code": "IND"
           },
           "city": {
-            "code": "std:080"
+            "code": "std:044"
           }
         },
         "version": "2.1.0",
         "bap_id": "preprod.ftdev.in",
         "bap_uri": "https://preprod.ftdev.in",
-        "transaction_id": "c1be82ff-a448-4ba1-beca-6ce1b4b229b4",
-        "message_id": "4cd95e08-1170-4ec0-8c66-5054b7a07e27",
-        "timestamp": "2025-11-07T08:56:27.874Z",
+        "transaction_id": "6f9c7f7c-686b-4605-aee1-182451c7988b",
+        "message_id": "cbdebb97-90b6-4817-a054-c29af4001a49",
+        "timestamp": "2025-11-21T06:45:57.069Z",
         "ttl": "PT30S"
       },
       "message": {
         "intent": {
-          "category": {
-            "descriptor": {
-              "code": "ON_DEMAND_TRIP"
-            }
-          },
-          "tags": [
-            {
-              "descriptor": {
-                "name": "BAP Terms of Engagement",
-                "code": "BAP_TERMS"
-              },
-              "display": false,
-              "list": [
-                {
-                  "descriptor": {
-                    "code": "BUYER_FINDER_FEES_PERCENTAGE"
-                  },
-                  "value": "1"
-                },
-                {
-                  "descriptor": {
-                    "code": "DELAY_INTEREST"
-                  },
-                  "value": "0"
-                },
-                {
-                  "descriptor": {
-                    "code": "STATIC_TERMS"
-                  },
-                  "value": "https://example-test-bap.com/static-terms.txt"
-                }
-              ]
-            }
-          ],
           "fulfillment": {
             "stops": [
               {
                 "location": {
-                  "gps": "12.935549,77.605885"
+                  "gps": "13.064511,80.266065"
                 },
                 "type": "START"
               },
               {
                 "location": {
-                  "gps": "12.935010,77.573460"
+                  "gps": "13.014712,80.223993"
                 },
                 "type": "END"
               }
             ]
           },
           "payment": {
-            "collected_by": "BPP"
+            "collected_by": "BPP",
+            "tags": [
+              {
+                "descriptor": {
+                  "code": "BUYER_FINDER_FEES"
+                },
+                "display": false,
+                "list": [
+                  {
+                    "descriptor": {
+                      "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                    },
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_TERMS"
+                },
+                "display": false,
+                "list": [
+                  {
+                    "descriptor": {
+                      "code": "DELAY_INTEREST"
+                    },
+                    "value": "5"
+                  },
+                  {
+                    "descriptor": {
+                      "code": "STATIC_TERMS"
+                    },
+                    "value": "https://example-test-bap.com/static-terms.txt"
+                  }
+                ]
+              }
+            ]
           }
         }
       }
@@ -87,7 +89,7 @@
         }
       }
     },
-    "signature": "Signature keyId=\"preprod.ftdev.in|a2f9c68b-4f7c-412b-b3d3-76abf9d724c7|ed25519\",algorithm=\"ed25519\",created=\"1762505787\",expires=\"1762509387\",headers=\"(created) (expires) digest\",signature=\"SCacpnwOxTZyh138RERFHGHTmvDZSDjmCsfwG+Mc4dUG+J+tV0GxClSB7BTaHmc9bw7J22CNTg9yXYk5vf2yAw==\""
+    "signature": "Signature keyId=\"preprod.ftdev.in|a2f9c68b-4f7c-412b-b3d3-76abf9d724c7|ed25519\",algorithm=\"ed25519\",created=\"1763707557\",expires=\"1763711157\",headers=\"(created) (expires) digest\",signature=\"KKecyhMUM0eLEJev0TJKr6vYW8FGRDm/xSdmD9u2CZ6Yh4fD/OTN8p2fb2KSQGl8J5jplfD2mMVbhOCq0veRDw==\""
   },
   {
     "req": {
@@ -104,9 +106,9 @@
             "code": "IND"
           }
         },
-        "message_id": "4cd95e08-1170-4ec0-8c66-5054b7a07e27",
-        "timestamp": "2025-11-07T08:56:29.886Z",
-        "transaction_id": "c1be82ff-a448-4ba1-beca-6ce1b4b229b4",
+        "message_id": "cbdebb97-90b6-4817-a054-c29af4001a49",
+        "timestamp": "2025-11-21T06:45:59.020Z",
+        "transaction_id": "6f9c7f7c-686b-4605-aee1-182451c7988b",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -125,7 +127,7 @@
                   "stops": [
                     {
                       "location": {
-                        "gps": "12.935549,77.605885"
+                        "gps": "13.064511,80.266065"
                       },
                       "type": "START",
                       "instructions": {
@@ -135,7 +137,7 @@
                     },
                     {
                       "location": {
-                        "gps": "12.935010,77.573460"
+                        "gps": "13.014712,80.223993"
                       },
                       "type": "END",
                       "instructions": {
@@ -155,7 +157,7 @@
                   "stops": [
                     {
                       "location": {
-                        "gps": "12.935549,77.605885"
+                        "gps": "13.064511,80.266065"
                       },
                       "type": "START",
                       "instructions": {
@@ -165,7 +167,7 @@
                     },
                     {
                       "location": {
-                        "gps": "12.935010,77.573460"
+                        "gps": "13.014712,80.223993"
                       },
                       "type": "END",
                       "instructions": {
@@ -270,19 +272,19 @@
               ],
               "locations": [
                 {
-                  "gps": "12.936285,77.602572",
+                  "gps": "13.069160,80.263231",
                   "id": "L1"
                 },
                 {
-                  "gps": "12.936802,77.604486",
+                  "gps": "13.060558,80.265000",
                   "id": "L2"
                 },
                 {
-                  "gps": "12.938601,77.601046",
+                  "gps": "13.066591,80.262384",
                   "id": "L3"
                 },
                 {
-                  "gps": "12.935945,77.610172",
+                  "gps": "13.062130,80.265937",
                   "id": "L4"
                 }
               ],
@@ -384,17 +386,17 @@
             "code": "IND"
           },
           "city": {
-            "code": "std:080"
+            "code": "std:044"
           }
         },
         "version": "2.1.0",
         "bap_id": "preprod.ftdev.in",
         "bap_uri": "https://preprod.ftdev.in",
-        "bpp_id": "workbench.ondc.tech",
-        "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller/",
-        "transaction_id": "c1be82ff-a448-4ba1-beca-6ce1b4b229b4",
-        "message_id": "5a880ed8-663d-4777-aaed-2ad697fc9ebe",
-        "timestamp": "2025-11-07T08:56:39.836Z",
+        "bpp_id": "mock.workbench.ondc",
+        "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
+        "transaction_id": "6f9c7f7c-686b-4605-aee1-182451c7988b",
+        "message_id": "e9014cf9-e2ad-4f6e-aa5f-1622777e2474",
+        "timestamp": "2025-11-21T06:46:12.692Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -441,9 +443,9 @@
             "code": "IND"
           }
         },
-        "message_id": "5a880ed8-663d-4777-aaed-2ad697fc9ebe",
-        "timestamp": "2025-11-07T08:56:41.806Z",
-        "transaction_id": "c1be82ff-a448-4ba1-beca-6ce1b4b229b4",
+        "message_id": "e9014cf9-e2ad-4f6e-aa5f-1622777e2474",
+        "timestamp": "2025-11-21T06:46:14.619Z",
+        "transaction_id": "6f9c7f7c-686b-4605-aee1-182451c7988b",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -457,7 +459,7 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "START",
                   "instructions": {
@@ -467,7 +469,7 @@
                 },
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "END",
                   "instructions": {
@@ -663,7 +665,7 @@
             "code": "IND"
           },
           "city": {
-            "code": "std:080"
+            "code": "std:044"
           }
         },
         "version": "2.1.0",
@@ -671,9 +673,9 @@
         "bap_uri": "https://preprod.ftdev.in",
         "bpp_id": "workbench.ondc.tech",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "c1be82ff-a448-4ba1-beca-6ce1b4b229b4",
-        "message_id": "c4d68818-9d62-498b-9709-6e3762296963",
-        "timestamp": "2025-11-07T08:56:49.793Z",
+        "transaction_id": "6f9c7f7c-686b-4605-aee1-182451c7988b",
+        "message_id": "c7ee33be-654b-48bb-9714-46f5133a62ae",
+        "timestamp": "2025-11-21T06:46:36.588Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -695,13 +697,13 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "END"
                 }
@@ -839,9 +841,9 @@
             "code": "IND"
           }
         },
-        "message_id": "c4d68818-9d62-498b-9709-6e3762296963",
-        "timestamp": "2025-11-07T08:56:51.528Z",
-        "transaction_id": "c1be82ff-a448-4ba1-beca-6ce1b4b229b4",
+        "message_id": "c7ee33be-654b-48bb-9714-46f5133a62ae",
+        "timestamp": "2025-11-21T06:46:38.161Z",
+        "transaction_id": "6f9c7f7c-686b-4605-aee1-182451c7988b",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -907,7 +909,7 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "START",
                   "instructions": {
@@ -917,7 +919,7 @@
                 },
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "END",
                   "instructions": {
@@ -1070,14 +1072,14 @@
                 }
               ],
               "payment_ids": [
-                "myxddjee6u"
+                "41rpu0i4ci3"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "myxddjee6u",
+              "id": "41rpu0i4ci3",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }
@@ -1197,7 +1199,7 @@
             "code": "IND"
           },
           "city": {
-            "code": "std:080"
+            "code": "std:044"
           }
         },
         "version": "2.1.0",
@@ -1205,9 +1207,9 @@
         "bap_uri": "https://preprod.ftdev.in",
         "bpp_id": "workbench.ondc.tech",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "c1be82ff-a448-4ba1-beca-6ce1b4b229b4",
-        "message_id": "47b5d597-d7ce-4473-8811-5e152bbf88ab",
-        "timestamp": "2025-11-07T08:56:59.534Z",
+        "transaction_id": "6f9c7f7c-686b-4605-aee1-182451c7988b",
+        "message_id": "920bbd6f-e6bd-4fbf-8112-e2550b686652",
+        "timestamp": "2025-11-21T06:47:10.655Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -1229,13 +1231,13 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "END"
                 }
@@ -1254,7 +1256,7 @@
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "myxddjee6u",
+              "id": "41rpu0i4ci3",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }
@@ -1437,9 +1439,9 @@
             "code": "IND"
           }
         },
-        "message_id": "47b5d597-d7ce-4473-8811-5e152bbf88ab",
-        "timestamp": "2025-11-07T08:57:01.260Z",
-        "transaction_id": "c1be82ff-a448-4ba1-beca-6ce1b4b229b4",
+        "message_id": "920bbd6f-e6bd-4fbf-8112-e2550b686652",
+        "timestamp": "2025-11-21T06:47:12.261Z",
+        "transaction_id": "6f9c7f7c-686b-4605-aee1-182451c7988b",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -1505,7 +1507,7 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "START",
                   "instructions": {
@@ -1515,7 +1517,7 @@
                 },
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "END",
                   "instructions": {
@@ -1580,7 +1582,7 @@
               }
             }
           ],
-          "id": "y0q7y5l7sqm",
+          "id": "tbem9ry2w6c",
           "items": [
             {
               "descriptor": {
@@ -1685,14 +1687,14 @@
                 }
               ],
               "payment_ids": [
-                "myxddjee6u"
+                "41rpu0i4ci3"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "myxddjee6u",
+              "id": "41rpu0i4ci3",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }
@@ -1724,8 +1726,8 @@
             "ttl": "PT200S"
           },
           "status": "ACTIVE",
-          "created_at": "2025-11-07T08:57:01.262Z",
-          "updated_at": "2025-11-07T08:57:01.262Z",
+          "created_at": "2025-11-21T06:47:12.265Z",
+          "updated_at": "2025-11-21T06:47:12.265Z",
           "tags": [
             {
               "descriptor": {
@@ -1901,9 +1903,9 @@
             "code": "IND"
           }
         },
-        "message_id": "7bffd7be-e966-4953-bd05-492574b53b2f",
-        "timestamp": "2025-11-07T08:57:04.314Z",
-        "transaction_id": "c1be82ff-a448-4ba1-beca-6ce1b4b229b4",
+        "message_id": "578e2c9f-505b-4b21-b207-76401aeb8325",
+        "timestamp": "2025-11-21T06:47:15.536Z",
+        "transaction_id": "6f9c7f7c-686b-4605-aee1-182451c7988b",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -1969,7 +1971,7 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "12.935549,77.605885"
+                    "gps": "13.064511,80.266065"
                   },
                   "type": "START",
                   "instructions": {
@@ -1979,7 +1981,7 @@
                 },
                 {
                   "location": {
-                    "gps": "12.935010,77.573460"
+                    "gps": "13.014712,80.223993"
                   },
                   "type": "END",
                   "instructions": {
@@ -2044,7 +2046,7 @@
               }
             }
           ],
-          "id": "y0q7y5l7sqm",
+          "id": "tbem9ry2w6c",
           "items": [
             {
               "descriptor": {
@@ -2149,14 +2151,14 @@
                 }
               ],
               "payment_ids": [
-                "myxddjee6u"
+                "41rpu0i4ci3"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "myxddjee6u",
+              "id": "41rpu0i4ci3",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }
@@ -2202,8 +2204,8 @@
               }
             }
           },
-          "created_at": "2025-11-07T08:57:01.262Z",
-          "updated_at": "2025-11-07T08:57:04.317Z",
+          "created_at": "2025-11-21T06:47:12.265Z",
+          "updated_at": "2025-11-21T06:47:15.540Z",
           "tags": [
             {
               "descriptor": {
