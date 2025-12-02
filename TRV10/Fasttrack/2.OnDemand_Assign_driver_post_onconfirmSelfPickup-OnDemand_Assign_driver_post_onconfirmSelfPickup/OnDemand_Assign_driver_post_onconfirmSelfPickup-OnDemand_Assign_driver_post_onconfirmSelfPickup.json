@@ -15,67 +15,65 @@
         "version": "2.1.0",
         "bap_id": "preprod.ftdev.in",
         "bap_uri": "https://preprod.ftdev.in",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
-        "message_id": "20745e65-dfb8-485f-9714-23f1f006df89",
-        "timestamp": "2025-11-21T06:47:42.075Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
+        "message_id": "6b868544-7583-445d-b1a5-807f20fd821a",
+        "timestamp": "2025-12-02T08:47:25.844Z",
         "ttl": "PT30S"
       },
       "message": {
         "intent": {
+          "category": {
+            "descriptor": {
+              "code": "ON_DEMAND_TRIP"
+            }
+          },
+          "tags": [
+            {
+              "descriptor": {
+                "name": "BAP Terms of Engagement",
+                "code": "BAP_TERMS"
+              },
+              "display": false,
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                  },
+                  "value": "1"
+                },
+                {
+                  "descriptor": {
+                    "code": "DELAY_INTEREST"
+                  },
+                  "value": "0"
+                },
+                {
+                  "descriptor": {
+                    "code": "STATIC_TERMS"
+                  },
+                  "value": "https://example-test-bap.com/static-terms.txt"
+                }
+              ]
+            }
+          ],
           "fulfillment": {
             "stops": [
               {
                 "location": {
-                  "gps": "13.064511,80.266065"
+                  "gps": "13.0516003,80.2175061"
                 },
                 "type": "START"
               },
               {
                 "location": {
-                  "gps": "13.014712,80.223993"
+                  "gps": "12.9811,80.1596"
                 },
                 "type": "END"
               }
             ]
           },
           "payment": {
-            "collected_by": "BPP",
-            "tags": [
-              {
-                "descriptor": {
-                  "code": "BUYER_FINDER_FEES"
-                },
-                "display": false,
-                "list": [
-                  {
-                    "descriptor": {
-                      "code": "BUYER_FINDER_FEES_PERCENTAGE"
-                    },
-                    "value": "1"
-                  }
-                ]
-              },
-              {
-                "descriptor": {
-                  "code": "SETTLEMENT_TERMS"
-                },
-                "display": false,
-                "list": [
-                  {
-                    "descriptor": {
-                      "code": "DELAY_INTEREST"
-                    },
-                    "value": "5"
-                  },
-                  {
-                    "descriptor": {
-                      "code": "STATIC_TERMS"
-                    },
-                    "value": "https://example-test-bap.com/static-terms.txt"
-                  }
-                ]
-              }
-            ]
+            "collected_by": "BPP"
           }
         }
       }
@@ -89,7 +87,7 @@
         }
       }
     },
-    "signature": "Signature keyId=\"preprod.ftdev.in|a2f9c68b-4f7c-412b-b3d3-76abf9d724c7|ed25519\",algorithm=\"ed25519\",created=\"1763707662\",expires=\"1763711262\",headers=\"(created) (expires) digest\",signature=\"LWOsei63NT4yDFiV9Kc6Lu67ETlJWojA38PwhWcMOFd823IrYeqgCIcpP8gzlJmxvpTXaoKSkjnoyCD03+94BQ==\""
+    "signature": "Signature keyId=\"preprod.ftdev.in|a2f9c68b-4f7c-412b-b3d3-76abf9d724c7|ed25519\",algorithm=\"ed25519\",created=\"1764665245\",expires=\"1764668845\",headers=\"(created) (expires) digest\",signature=\"2JHR6ark5or3XQctmEQnYZSA+sdlkB2zl5DZX5SieHKUIZKCnNHf2X2qe7dq76BFNmHLD2WrxPXCO1f1vfE3Aw==\""
   },
   {
     "req": {
@@ -106,9 +104,9 @@
             "code": "IND"
           }
         },
-        "message_id": "20745e65-dfb8-485f-9714-23f1f006df89",
-        "timestamp": "2025-11-21T06:47:43.319Z",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "6b868544-7583-445d-b1a5-807f20fd821a",
+        "timestamp": "2025-12-02T08:47:27.820Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -127,7 +125,7 @@
                   "stops": [
                     {
                       "location": {
-                        "gps": "13.064511,80.266065"
+                        "gps": "13.0516003,80.2175061"
                       },
                       "type": "START",
                       "instructions": {
@@ -137,7 +135,7 @@
                     },
                     {
                       "location": {
-                        "gps": "13.014712,80.223993"
+                        "gps": "12.9811,80.1596"
                       },
                       "type": "END",
                       "instructions": {
@@ -157,7 +155,7 @@
                   "stops": [
                     {
                       "location": {
-                        "gps": "13.064511,80.266065"
+                        "gps": "13.0516003,80.2175061"
                       },
                       "type": "START",
                       "instructions": {
@@ -167,7 +165,7 @@
                     },
                     {
                       "location": {
-                        "gps": "13.014712,80.223993"
+                        "gps": "12.9811,80.1596"
                       },
                       "type": "END",
                       "instructions": {
@@ -272,19 +270,19 @@
               ],
               "locations": [
                 {
-                  "gps": "13.066818,80.267445",
+                  "gps": "13.048024,80.220321",
                   "id": "L1"
                 },
                 {
-                  "gps": "13.065276,80.268451",
+                  "gps": "13.047277,80.214441",
                   "id": "L2"
                 },
                 {
-                  "gps": "13.067777,80.268144",
+                  "gps": "13.048467,80.213177",
                   "id": "L3"
                 },
                 {
-                  "gps": "13.061814,80.265250",
+                  "gps": "13.054506,80.217960",
                   "id": "L4"
                 }
               ],
@@ -392,11 +390,11 @@
         "version": "2.1.0",
         "bap_id": "preprod.ftdev.in",
         "bap_uri": "https://preprod.ftdev.in",
-        "bpp_id": "mock.workbench.ondc",
+        "bpp_id": "workbench.ondc.tech",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
-        "message_id": "bc12a4cd-aec2-442a-ba96-1cf4ed8007dd",
-        "timestamp": "2025-11-21T06:47:57.948Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
+        "message_id": "41b0b25f-f60c-4174-967b-514b251ecbd8",
+        "timestamp": "2025-12-02T08:48:00.026Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -426,7 +424,7 @@
         }
       }
     },
-    "signature": "no-auth"
+    "signature": "Signature keyId=\"preprod.ftdev.in|a2f9c68b-4f7c-412b-b3d3-76abf9d724c7|ed25519\",algorithm=\"ed25519\",created=\"1764665280\",expires=\"1764668880\",headers=\"(created) (expires) digest\",signature=\"8gtNKNDxt1S1UFeSfar2C6tIVKTLnlc3LcjvwyMYRvsw83P0Tys6KEO63ixCpJ7X9ECzkmCwHWJ/f79Eq0abCg==\""
   },
   {
     "req": {
@@ -443,9 +441,9 @@
             "code": "IND"
           }
         },
-        "message_id": "bc12a4cd-aec2-442a-ba96-1cf4ed8007dd",
-        "timestamp": "2025-11-21T06:47:59.850Z",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "41b0b25f-f60c-4174-967b-514b251ecbd8",
+        "timestamp": "2025-12-02T08:48:02.516Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -459,7 +457,7 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "START",
                   "instructions": {
@@ -469,7 +467,7 @@
                 },
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "END",
                   "instructions": {
@@ -671,43 +669,44 @@
         "version": "2.1.0",
         "bap_id": "preprod.ftdev.in",
         "bap_uri": "https://preprod.ftdev.in",
-        "bpp_id": "workbench.ondc.tech",
+        "bpp_id": "mock.workbench.ondc",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
-        "message_id": "36e6914f-4768-46bb-bf8f-859fb243eb59",
-        "timestamp": "2025-11-21T06:48:11.598Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
+        "message_id": "dc7fb32f-11bb-4741-9b07-98819f6b7615",
+        "timestamp": "2025-12-02T08:48:32.337Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
           "billing": {
-            "name": "test booking"
+            "name": "test"
           },
           "fulfillments": [
             {
               "customer": {
                 "contact": {
-                  "phone": "8056114016"
+                  "phone": "9790119776"
                 },
                 "person": {
-                  "name": "test booking"
+                  "name": "test"
                 }
               },
               "id": "F1",
               "stops": [
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "END"
                 }
               ],
+              "type": "SELF_PICKUP",
               "vehicle": {
                 "category": "AUTO_RICKSHAW",
                 "variant": "AUTO_RICKSHAW"
@@ -824,7 +823,7 @@
         }
       }
     },
-    "signature": "no-auth"
+    "signature": "Signature keyId=\"preprod.ftdev.in|a2f9c68b-4f7c-412b-b3d3-76abf9d724c7|ed25519\",algorithm=\"ed25519\",created=\"1764665312\",expires=\"1764668912\",headers=\"(created) (expires) digest\",signature=\"Q9Y1/PJyyJI0+tqgOiuC+02jASiu5xvGjTp26hQ4+owPB3ZfRD39x6+rYvBply5gaWwxBqUu/UMYTwBmtIPyCA==\""
   },
   {
     "req": {
@@ -841,9 +840,9 @@
             "code": "IND"
           }
         },
-        "message_id": "36e6914f-4768-46bb-bf8f-859fb243eb59",
-        "timestamp": "2025-11-21T06:48:13.228Z",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "dc7fb32f-11bb-4741-9b07-98819f6b7615",
+        "timestamp": "2025-12-02T08:48:34.211Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -909,7 +908,7 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "START",
                   "instructions": {
@@ -919,7 +918,7 @@
                 },
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "END",
                   "instructions": {
@@ -1072,14 +1071,14 @@
                 }
               ],
               "payment_ids": [
-                "nvgtiufhpo"
+                "u55ctgea05"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "nvgtiufhpo",
+              "id": "u55ctgea05",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }
@@ -1205,39 +1204,39 @@
         "version": "2.1.0",
         "bap_id": "preprod.ftdev.in",
         "bap_uri": "https://preprod.ftdev.in",
-        "bpp_id": "workbench.ondc.tech",
+        "bpp_id": "mock.workbench.ondc",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
-        "message_id": "6d351219-7686-41f4-85ea-ecc0014de16e",
-        "timestamp": "2025-11-21T06:48:37.916Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
+        "message_id": "da580187-f181-47f8-84c4-e1b56cee9066",
+        "timestamp": "2025-12-02T08:49:03.253Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
           "billing": {
-            "name": "test booking"
+            "name": "test"
           },
           "fulfillments": [
             {
               "customer": {
                 "contact": {
-                  "phone": "8056114016"
+                  "phone": "9790119776"
                 },
                 "person": {
-                  "name": "test booking"
+                  "name": "test"
                 }
               },
               "id": "F1",
               "stops": [
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "END"
                 }
@@ -1256,7 +1255,7 @@
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "nvgtiufhpo",
+              "id": "u55ctgea05",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }
@@ -1422,7 +1421,7 @@
         }
       }
     },
-    "signature": "no-auth"
+    "signature": "Signature keyId=\"preprod.ftdev.in|a2f9c68b-4f7c-412b-b3d3-76abf9d724c7|ed25519\",algorithm=\"ed25519\",created=\"1764665343\",expires=\"1764668943\",headers=\"(created) (expires) digest\",signature=\"TXEGU7ZtWwh+G97Cr2m3Lhe9IZaKFUkUUkP3CsELFZ5R1maPojJafrjV9IVDkpczz9TNAF97kmADoAQqLBQ/DA==\""
   },
   {
     "req": {
@@ -1439,9 +1438,9 @@
             "code": "IND"
           }
         },
-        "message_id": "6d351219-7686-41f4-85ea-ecc0014de16e",
-        "timestamp": "2025-11-21T06:48:39.479Z",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "da580187-f181-47f8-84c4-e1b56cee9066",
+        "timestamp": "2025-12-02T08:49:05.181Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -1507,7 +1506,7 @@
               "stops": [
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "START",
                   "instructions": {
@@ -1517,7 +1516,7 @@
                 },
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "END",
                   "instructions": {
@@ -1582,7 +1581,7 @@
               }
             }
           ],
-          "id": "ikhtsawaf2",
+          "id": "io5sl9penr",
           "items": [
             {
               "descriptor": {
@@ -1687,7 +1686,7 @@
                 }
               ],
               "payment_ids": [
-                "nvgtiufhpo"
+                "u55ctgea05"
               ]
             }
           ],
@@ -1726,8 +1725,8 @@
             "ttl": "PT200S"
           },
           "status": "ACTIVE",
-          "created_at": "2025-11-21T06:48:39.483Z",
-          "updated_at": "2025-11-21T06:48:39.483Z",
+          "created_at": "2025-12-02T08:49:05.184Z",
+          "updated_at": "2025-12-02T08:49:05.184Z",
           "tags": [
             {
               "descriptor": {
@@ -1903,9 +1902,9 @@
             "code": "IND"
           }
         },
-        "message_id": "f655539f-8abc-432c-9ec4-15da18fab3eb",
-        "timestamp": "2025-11-21T06:48:42.619Z",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "6616a297-a348-48d4-8d03-644316ffab9a",
+        "timestamp": "2025-12-02T08:49:08.789Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -2115,33 +2114,33 @@
             {
               "customer": {
                 "contact": {
-                  "phone": "8056114016"
+                  "phone": "9790119776"
                 },
                 "person": {
-                  "name": "test booking"
+                  "name": "test"
                 }
               },
               "id": "F1",
               "stops": [
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "END"
                 }
               ],
+              "type": "SELF_PICKUP",
               "vehicle": {
                 "category": "AUTO_RICKSHAW",
                 "variant": "AUTO_RICKSHAW",
                 "registration": "DL01AB1234"
               },
-              "type": "DELIVERY",
               "agent": {
                 "person": {
                   "name": "Driver Name"
@@ -2262,7 +2261,7 @@
                 }
               ],
               "payment_ids": [
-                "nvgtiufhpo"
+                "u55ctgea05"
               ]
             }
           ],
@@ -2302,7 +2301,7 @@
           },
           "status": "ACTIVE",
           "created_at": "2023-03-23T04:48:34.53Z",
-          "updated_at": "2025-11-21T06:48:42.623Z"
+          "updated_at": "2025-12-02T08:49:08.792Z"
         }
       }
     },
@@ -2335,13 +2334,13 @@
         "bap_uri": "https://preprod.ftdev.in",
         "bpp_id": "workbench.ondc.tech",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
-        "message_id": "dbf0d4b3-cf9f-471c-bf4f-d55f51b72a37",
-        "timestamp": "2025-11-21T06:49:03.867Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
+        "message_id": "ca38c041-bbdd-43c3-bfa0-a66f8eaca10a",
+        "timestamp": "2025-12-02T08:49:35.433Z",
         "ttl": "PT30S"
       },
       "message": {
-        "order_id": "ikhtsawaf2"
+        "order_id": "io5sl9penr"
       }
     },
     "res": {
@@ -2353,7 +2352,7 @@
         }
       }
     },
-    "signature": "no-auth"
+    "signature": "Signature keyId=\"preprod.ftdev.in|a2f9c68b-4f7c-412b-b3d3-76abf9d724c7|ed25519\",algorithm=\"ed25519\",created=\"1764665375\",expires=\"1764668975\",headers=\"(created) (expires) digest\",signature=\"4Ni3iH1otd1RBHCO5J4dwogovg7kU3V3DVcB5pLJcTh0FhaOKCbSk94I6WAlg2ryupv4N6XTXlHZN9O6HfQzAQ==\""
   },
   {
     "req": {
@@ -2370,9 +2369,9 @@
             "code": "IND"
           }
         },
-        "message_id": "dbf0d4b3-cf9f-471c-bf4f-d55f51b72a37",
-        "timestamp": "2025-11-21T06:49:04.024Z",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "ca38c041-bbdd-43c3-bfa0-a66f8eaca10a",
+        "timestamp": "2025-12-02T08:49:35.832Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -2383,7 +2382,7 @@
           "status": "active",
           "location": {
             "gps": "28.620976, 77.046732",
-            "updated_at": "2025-11-21T06:49:04.024Z"
+            "updated_at": "2025-12-02T08:49:35.832Z"
           }
         }
       }
@@ -2414,9 +2413,9 @@
             "code": "IND"
           }
         },
-        "message_id": "29c0d29c-6418-4852-9777-423b2397ff4b",
-        "timestamp": "2025-11-21T06:49:04.616Z",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "f946704e-db3a-45e3-ab5f-608f128df1cd",
+        "timestamp": "2025-12-02T08:49:36.859Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -2626,33 +2625,33 @@
             {
               "customer": {
                 "contact": {
-                  "phone": "8056114016"
+                  "phone": "9790119776"
                 },
                 "person": {
-                  "name": "test booking"
+                  "name": "test"
                 }
               },
               "id": "F1",
               "stops": [
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "END"
                 }
               ],
+              "type": "SELF_PICKUP",
               "vehicle": {
                 "category": "AUTO_RICKSHAW",
                 "variant": "AUTO_RICKSHAW",
                 "registration": "DL01AB1234"
               },
-              "type": "DELIVERY",
               "agent": {
                 "person": {
                   "name": "Driver Name"
@@ -2668,7 +2667,7 @@
               }
             }
           ],
-          "id": "ikhtsawaf2",
+          "id": "io5sl9penr",
           "items": [
             {
               "descriptor": {
@@ -2773,14 +2772,14 @@
                 }
               ],
               "payment_ids": [
-                "nvgtiufhpo"
+                "u55ctgea05"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "nvgtiufhpo",
+              "id": "u55ctgea05",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }
@@ -2812,8 +2811,8 @@
             "ttl": "PT200S"
           },
           "status": "ACTIVE",
-          "created_at": "2025-11-21T06:48:39.483Z",
-          "updated_at": "2025-11-21T06:49:04.618Z"
+          "created_at": "2025-12-02T08:49:05.184Z",
+          "updated_at": "2025-12-02T08:49:36.861Z"
         }
       }
     },
@@ -2843,9 +2842,9 @@
             "code": "IND"
           }
         },
-        "message_id": "2984b92e-6a76-4939-adc4-7fb90627d7a4",
-        "timestamp": "2025-11-21T06:49:07.726Z",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "59ca48a6-3b40-443b-9122-bacdef14fa95",
+        "timestamp": "2025-12-02T08:49:39.920Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -3055,33 +3054,33 @@
             {
               "customer": {
                 "contact": {
-                  "phone": "8056114016"
+                  "phone": "9790119776"
                 },
                 "person": {
-                  "name": "test booking"
+                  "name": "test"
                 }
               },
               "id": "F1",
               "stops": [
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "END"
                 }
               ],
+              "type": "SELF_PICKUP",
               "vehicle": {
                 "category": "AUTO_RICKSHAW",
                 "variant": "AUTO_RICKSHAW",
                 "registration": "DL01AB1234"
               },
-              "type": "DELIVERY",
               "agent": {
                 "person": {
                   "name": "Driver Name"
@@ -3097,7 +3096,7 @@
               }
             }
           ],
-          "id": "ikhtsawaf2",
+          "id": "io5sl9penr",
           "items": [
             {
               "descriptor": {
@@ -3202,14 +3201,14 @@
                 }
               ],
               "payment_ids": [
-                "nvgtiufhpo"
+                "u55ctgea05"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "nvgtiufhpo",
+              "id": "u55ctgea05",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }
@@ -3241,8 +3240,8 @@
             "ttl": "PT200S"
           },
           "status": "ACTIVE",
-          "created_at": "2025-11-21T06:48:39.483Z",
-          "updated_at": "2025-11-21T06:49:07.728Z"
+          "created_at": "2025-12-02T08:49:05.184Z",
+          "updated_at": "2025-12-02T08:49:39.923Z"
         }
       }
     },
@@ -3272,9 +3271,9 @@
             "code": "IND"
           }
         },
-        "message_id": "fac0670a-653c-4746-9e80-633ef671f1eb",
-        "timestamp": "2025-11-21T06:49:10.962Z",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "70a329c3-2674-4ee9-9847-1862163b6cbb",
+        "timestamp": "2025-12-02T08:49:43.133Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -3484,33 +3483,33 @@
             {
               "customer": {
                 "contact": {
-                  "phone": "8056114016"
+                  "phone": "9790119776"
                 },
                 "person": {
-                  "name": "test booking"
+                  "name": "test"
                 }
               },
               "id": "F1",
               "stops": [
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "END"
                 }
               ],
+              "type": "SELF_PICKUP",
               "vehicle": {
                 "category": "AUTO_RICKSHAW",
                 "variant": "AUTO_RICKSHAW",
                 "registration": "DL01AB1234"
               },
-              "type": "DELIVERY",
               "agent": {
                 "person": {
                   "name": "Driver Name"
@@ -3526,7 +3525,7 @@
               }
             }
           ],
-          "id": "ikhtsawaf2",
+          "id": "io5sl9penr",
           "items": [
             {
               "descriptor": {
@@ -3631,14 +3630,14 @@
                 }
               ],
               "payment_ids": [
-                "nvgtiufhpo"
+                "u55ctgea05"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "nvgtiufhpo",
+              "id": "u55ctgea05",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }
@@ -3670,8 +3669,8 @@
             "ttl": "PT200S"
           },
           "status": "ACTIVE",
-          "created_at": "2025-11-21T06:48:39.483Z",
-          "updated_at": "2025-11-21T06:49:10.963Z"
+          "created_at": "2025-12-02T08:49:05.184Z",
+          "updated_at": "2025-12-02T08:49:43.134Z"
         }
       }
     },
@@ -3704,13 +3703,13 @@
         "bap_uri": "https://preprod.ftdev.in",
         "bpp_id": "workbench.ondc.tech",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
-        "message_id": "13d5171d-39bf-499f-924e-396a6d9f3b3c",
-        "timestamp": "2025-11-21T06:49:16.347Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
+        "message_id": "a50cba1a-b0d5-41cd-9ad4-6fe33c905490",
+        "timestamp": "2025-12-02T08:50:05.452Z",
         "ttl": "PT30S"
       },
       "message": {
-        "order_id": "ikhtsawaf2"
+        "order_id": "io5sl9penr"
       }
     },
     "res": {
@@ -3722,7 +3721,7 @@
         }
       }
     },
-    "signature": "no-auth"
+    "signature": "Signature keyId=\"preprod.ftdev.in|a2f9c68b-4f7c-412b-b3d3-76abf9d724c7|ed25519\",algorithm=\"ed25519\",created=\"1764665405\",expires=\"1764669005\",headers=\"(created) (expires) digest\",signature=\"31SFRVitmKLIkKYlC5kgyx7Hps1U3Trb9NpQniPP/3t3okqxIjHQ06tmyDBMXu5ww/aipV+CyZxGCYhz0NYKCg==\""
   },
   {
     "req": {
@@ -3739,9 +3738,9 @@
             "code": "IND"
           }
         },
-        "message_id": "13d5171d-39bf-499f-924e-396a6d9f3b3c",
-        "timestamp": "2025-11-21T06:49:16.451Z",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "a50cba1a-b0d5-41cd-9ad4-6fe33c905490",
+        "timestamp": "2025-12-02T08:50:05.572Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -3951,33 +3950,33 @@
             {
               "customer": {
                 "contact": {
-                  "phone": "8056114016"
+                  "phone": "9790119776"
                 },
                 "person": {
-                  "name": "test booking"
+                  "name": "test"
                 }
               },
               "id": "F1",
               "stops": [
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "END"
                 }
               ],
+              "type": "SELF_PICKUP",
               "vehicle": {
                 "category": "AUTO_RICKSHAW",
                 "variant": "AUTO_RICKSHAW",
                 "registration": "DL01AB1234"
               },
-              "type": "DELIVERY",
               "agent": {
                 "person": {
                   "name": "Driver Name"
@@ -3993,7 +3992,7 @@
               }
             }
           ],
-          "id": "ikhtsawaf2",
+          "id": "io5sl9penr",
           "items": [
             {
               "descriptor": {
@@ -4098,19 +4097,19 @@
                 }
               ],
               "payment_ids": [
-                "nvgtiufhpo"
+                "u55ctgea05"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "nvgtiufhpo",
+              "id": "u55ctgea05",
               "status": "PAID",
               "type": "ON-FULFILLMENT",
               "params": {
                 "amount": "146",
-                "transaction_id": "ofo1me7c5g"
+                "transaction_id": "atvtkg1uq3l"
               }
             }
           ],
@@ -4141,8 +4140,8 @@
             "ttl": "PT200S"
           },
           "status": "COMPLETE",
-          "created_at": "2025-11-21T06:48:39.483Z",
-          "updated_at": "2025-11-21T06:49:16.454Z"
+          "created_at": "2025-12-02T08:49:05.184Z",
+          "updated_at": "2025-12-02T08:50:05.574Z"
         }
       }
     },

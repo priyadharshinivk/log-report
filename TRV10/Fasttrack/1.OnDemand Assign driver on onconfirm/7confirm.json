@@ -13,39 +13,39 @@
         "version": "2.1.0",
         "bap_id": "preprod.ftdev.in",
         "bap_uri": "https://preprod.ftdev.in",
-        "bpp_id": "workbench.ondc.tech",
+        "bpp_id": "mock.workbench.ondc",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "67c6d3f8-e95a-4734-82da-18890a1a27ad",
-        "message_id": "5328246d-f28d-4624-b649-43804de7bf9b",
-        "timestamp": "2025-11-21T06:43:37.805Z",
+        "transaction_id": "29e63715-465c-4bb8-9ccb-bd3feec1950d",
+        "message_id": "9f21431c-d448-4079-a3db-6a6e6056708b",
+        "timestamp": "2025-12-02T08:56:34.813Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
           "billing": {
-            "name": "test booking"
+            "name": "test"
           },
           "fulfillments": [
             {
               "customer": {
                 "contact": {
-                  "phone": "8056114016"
+                  "phone": "9790119776"
                 },
                 "person": {
-                  "name": "test booking"
+                  "name": "test"
                 }
               },
               "id": "F1",
               "stops": [
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "END"
                 }
@@ -64,7 +64,7 @@
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "259wq6eeckx",
+              "id": "f3g8va46frv",
               "status": "NOT-PAID",
               "type": "ON-FULFILLMENT"
             }

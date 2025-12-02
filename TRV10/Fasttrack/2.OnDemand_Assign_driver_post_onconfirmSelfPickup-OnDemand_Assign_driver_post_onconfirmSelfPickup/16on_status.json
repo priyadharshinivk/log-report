@@ -12,9 +12,9 @@
             "code": "IND"
           }
         },
-        "message_id": "13d5171d-39bf-499f-924e-396a6d9f3b3c",
-        "timestamp": "2025-11-21T06:49:16.451Z",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
+        "message_id": "a50cba1a-b0d5-41cd-9ad4-6fe33c905490",
+        "timestamp": "2025-12-02T08:50:05.572Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -224,33 +224,33 @@
             {
               "customer": {
                 "contact": {
-                  "phone": "8056114016"
+                  "phone": "9790119776"
                 },
                 "person": {
-                  "name": "test booking"
+                  "name": "test"
                 }
               },
               "id": "F1",
               "stops": [
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "END"
                 }
               ],
+              "type": "SELF_PICKUP",
               "vehicle": {
                 "category": "AUTO_RICKSHAW",
                 "variant": "AUTO_RICKSHAW",
                 "registration": "DL01AB1234"
               },
-              "type": "DELIVERY",
               "agent": {
                 "person": {
                   "name": "Driver Name"
@@ -266,7 +266,7 @@
               }
             }
           ],
-          "id": "ikhtsawaf2",
+          "id": "io5sl9penr",
           "items": [
             {
               "descriptor": {
@@ -371,19 +371,19 @@
                 }
               ],
               "payment_ids": [
-                "nvgtiufhpo"
+                "u55ctgea05"
               ]
             }
           ],
           "payments": [
             {
               "collected_by": "BPP",
-              "id": "nvgtiufhpo",
+              "id": "u55ctgea05",
               "status": "PAID",
               "type": "ON-FULFILLMENT",
               "params": {
                 "amount": "146",
-                "transaction_id": "ofo1me7c5g"
+                "transaction_id": "atvtkg1uq3l"
               }
             }
           ],
@@ -414,8 +414,8 @@
             "ttl": "PT200S"
           },
           "status": "COMPLETE",
-          "created_at": "2025-11-21T06:48:39.483Z",
-          "updated_at": "2025-11-21T06:49:16.454Z"
+          "created_at": "2025-12-02T08:49:05.184Z",
+          "updated_at": "2025-12-02T08:50:05.574Z"
         }
       }
     }

@@ -13,43 +13,44 @@
         "version": "2.1.0",
         "bap_id": "preprod.ftdev.in",
         "bap_uri": "https://preprod.ftdev.in",
-        "bpp_id": "workbench.ondc.tech",
+        "bpp_id": "mock.workbench.ondc",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
-        "message_id": "36e6914f-4768-46bb-bf8f-859fb243eb59",
-        "timestamp": "2025-11-21T06:48:11.598Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
+        "message_id": "dc7fb32f-11bb-4741-9b07-98819f6b7615",
+        "timestamp": "2025-12-02T08:48:32.337Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
           "billing": {
-            "name": "test booking"
+            "name": "test"
           },
           "fulfillments": [
             {
               "customer": {
                 "contact": {
-                  "phone": "8056114016"
+                  "phone": "9790119776"
                 },
                 "person": {
-                  "name": "test booking"
+                  "name": "test"
                 }
               },
               "id": "F1",
               "stops": [
                 {
                   "location": {
-                    "gps": "13.064511,80.266065"
+                    "gps": "13.0516003,80.2175061"
                   },
                   "type": "START"
                 },
                 {
                   "location": {
-                    "gps": "13.014712,80.223993"
+                    "gps": "12.9811,80.1596"
                   },
                   "type": "END"
                 }
               ],
+              "type": "SELF_PICKUP",
               "vehicle": {
                 "category": "AUTO_RICKSHAW",
                 "variant": "AUTO_RICKSHAW"

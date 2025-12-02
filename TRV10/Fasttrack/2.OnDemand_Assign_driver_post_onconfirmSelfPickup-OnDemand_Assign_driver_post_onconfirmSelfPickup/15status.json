@@ -15,12 +15,12 @@
         "bap_uri": "https://preprod.ftdev.in",
         "bpp_id": "workbench.ondc.tech",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "550b4355-defc-41c8-9c31-4c9d09aa443d",
-        "message_id": "13d5171d-39bf-499f-924e-396a6d9f3b3c",
-        "timestamp": "2025-11-21T06:49:16.347Z",
+        "transaction_id": "e968865f-6b94-4650-856f-93e1d2ed8587",
+        "message_id": "a50cba1a-b0d5-41cd-9ad4-6fe33c905490",
+        "timestamp": "2025-12-02T08:50:05.452Z",
         "ttl": "PT30S"
       },
       "message": {
-        "order_id": "ikhtsawaf2"
+        "order_id": "io5sl9penr"
       }
     }

@@ -12,9 +12,9 @@
             "code": "IND"
           }
         },
-        "message_id": "59687c62-d25e-48ad-b42b-ded07673e206",
-        "timestamp": "2025-11-21T06:44:16.230Z",
-        "transaction_id": "67c6d3f8-e95a-4734-82da-18890a1a27ad",
+        "message_id": "c9418db3-16e4-4776-be77-ff0ab5e0caeb",
+        "timestamp": "2025-12-02T09:07:22.959Z",
+        "transaction_id": "29e63715-465c-4bb8-9ccb-bd3feec1950d",
         "ttl": "PT30S",
         "version": "2.1.0",
         "bpp_id": "mock.workbench.ondc",
@@ -25,7 +25,7 @@
           "status": "active",
           "location": {
             "gps": "28.620976, 77.046732",
-            "updated_at": "2025-11-21T06:44:16.230Z"
+            "updated_at": "2025-12-02T09:07:22.960Z"
           }
         }
       }

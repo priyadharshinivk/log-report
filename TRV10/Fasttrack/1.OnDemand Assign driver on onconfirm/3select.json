@@ -13,11 +13,11 @@
         "version": "2.1.0",
         "bap_id": "preprod.ftdev.in",
         "bap_uri": "https://preprod.ftdev.in",
-        "bpp_id": "mock.workbench.ondc",
+        "bpp_id": "workbench.ondc.tech",
         "bpp_uri": "https://workbench.ondc.tech/api-service/ONDC:TRV10/2.1.0/seller",
-        "transaction_id": "67c6d3f8-e95a-4734-82da-18890a1a27ad",
-        "message_id": "b31c9dd2-3853-4703-a56e-bb68ea1f0134",
-        "timestamp": "2025-11-21T06:42:38.667Z",
+        "transaction_id": "29e63715-465c-4bb8-9ccb-bd3feec1950d",
+        "message_id": "5522535a-100a-4ca2-b7f0-9b064f04777f",
+        "timestamp": "2025-12-02T08:54:41.515Z",
         "ttl": "PT30S"
       },
       "message": {
